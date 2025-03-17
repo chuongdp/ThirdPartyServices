@@ -1,0 +1,29 @@
+{
+  "name": "FirebaseTracker",
+  "references": [
+    "FirebaseWebGL",
+    "3rdCore.Analytic",
+    "GameFoundation.Signals",
+    "3rd.Configs.Editor",
+    "GameFoundation.AssetLibrary",
+    "GameFoundation.DI",
+    "GameFoundation.Models",
+    "GameFoundation.Utilities",
+    "I2Localization.Scripts"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.google.firebase.analytics",
+      "expression": "",
+      "define": "FIREBASE_SDK_EXISTS"
+    }
+  ],
+  "noEngineReferences": false
+}

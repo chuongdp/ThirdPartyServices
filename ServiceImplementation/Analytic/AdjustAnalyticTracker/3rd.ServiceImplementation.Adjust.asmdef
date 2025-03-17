@@ -1,0 +1,25 @@
+{
+  "name": "3rd.ServiceImplementation.Adjust",
+  "rootNamespace": "",
+  "references": [
+    "3rdCore.Analytic",
+    "GameFoundation.Signals",
+    "GameFoundation.Utilities",
+    "AdjustSdk.Scripts",
+    "AdjustSdk.Editor",
+    "3rd.Configs.Editor",
+    "GameFoundation.AssetLibrary",
+    "GameFoundation.DI",
+    "GameFoundation.Models",
+    "I2Localization.Scripts"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

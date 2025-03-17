@@ -1,0 +1,21 @@
+{
+  "name": "3rd.Configs",
+  "rootNamespace": "",
+  "references": [
+    "3rdCore.Ads",
+    "GameFoundation.DI",
+    "GameFoundation.Signals",
+    "3rd.RemoteConfig",
+    "3rd.Configs.Editor",
+    "MaxSdk.Scripts.IntegrationManager.Editor",
+    "UniTask",
+    "3rdCore.Analytic",
+    "DOTween.Modules",
+    "GameFoundation.AssetLibrary",
+    "GameFoundation.Models",
+    "GameFoundation.UIModule",
+    "GameFoundation.Utilities",
+    "I2Localization.Scripts",
+    "OSA.Core"
+  ]
+}

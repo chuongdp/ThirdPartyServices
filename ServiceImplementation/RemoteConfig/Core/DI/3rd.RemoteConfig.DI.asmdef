@@ -1,0 +1,26 @@
+{
+  "name": "3rd.RemoteConfig.DI",
+  "references": [
+    "3rd.RemoteConfig.FireBase",
+    "GameFoundation.Signals",
+    "GameFoundation.Utilities",
+    "GameFoundation.DI",
+    "3rd.RemoteConfig",
+    "VContainer",
+    "GameFoundation.AssetLibrary",
+    "GameFoundation.Models",
+    "I2Localization.Scripts"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.svermeulen.extenject",
+      "expression": "",
+      "define": "GDK_ZENJECT"
+    },
+    {
+      "name": "jp.hadashikick.vcontainer",
+      "expression": "",
+      "define": "GDK_VCONTAINER"
+    }
+  ]
+}

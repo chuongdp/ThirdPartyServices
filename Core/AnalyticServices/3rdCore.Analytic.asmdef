@@ -1,0 +1,26 @@
+{
+  "name": "3rdCore.Analytic",
+  "rootNamespace": "",
+  "references": [
+    "GameFoundation.DI",
+    "GameFoundation.Signals",
+    "VContainer",
+    "GameFoundation.Utilities",
+    "GameFoundation.Models",
+    "3rd.Configs.Editor",
+    "GameFoundation.AssetLibrary",
+    "I2Localization.Scripts"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.svermeulen.extenject",
+      "expression": "",
+      "define": "GDK_ZENJECT"
+    },
+    {
+      "name": "jp.hadashikick.vcontainer",
+      "expression": "",
+      "define": "GDK_VCONTAINER"
+    }
+  ]
+}

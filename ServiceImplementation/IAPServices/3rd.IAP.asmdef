@@ -1,0 +1,40 @@
+{
+  "name": "3rd.IAP",
+  "rootNamespace": "",
+  "references": [
+    "UnityEngine.Purchasing",
+    "Unity.Services.Core",
+    "UnityEngine.Purchasing.Stores",
+    "Unity.Services.Core.Environments",
+    "GameFoundation.Utilities",
+    "3rdCore.Ads",
+    "Zenject",
+    "VContainer",
+    "GameFoundation.Signals",
+    "UnityEngine.Purchasing.Security",
+    "UnityEngine.Purchasing.SecurityCore",
+    "UnityEngine.Purchasing.SecurityStub",
+    "Unity.Security.Tangle",
+    "3rd.Configs.Editor",
+    "3rdCore.Analytic",
+    "DOTween.Modules",
+    "GameFoundation.AssetLibrary",
+    "GameFoundation.DI",
+    "GameFoundation.Models",
+    "GameFoundation.UIModule",
+    "I2Localization.Scripts",
+    "OSA.Core"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.svermeulen.extenject",
+      "expression": "",
+      "define": "GDK_ZENJECT"
+    },
+    {
+      "name": "jp.hadashikick.vcontainer",
+      "expression": "",
+      "define": "GDK_VCONTAINER"
+    }
+  ]
+}

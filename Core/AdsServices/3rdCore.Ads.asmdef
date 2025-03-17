@@ -1,0 +1,36 @@
+{
+  "name": "3rdCore.Ads",
+  "rootNamespace": "",
+  "references": [
+    "3rdCore.Analytic",
+    "GameFoundation.Utilities",
+    "Zenject",
+    "Unity.TextMeshPro",
+    "UniTask",
+    "GameFoundation.Signals",
+    "GameFoundation.UIModule",
+    "FirebaseRemoteConfig",
+    "GameFoundation.DI",
+    "3rd.Configs.Editor",
+    "DOTween.Modules",
+    "GameFoundation.AssetLibrary",
+    "GameFoundation.Models",
+    "I2Localization.Scripts",
+    "OSA.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "Select...",
+      "expression": "",
+      "define": ""
+    }
+  ],
+  "noEngineReferences": false
+}

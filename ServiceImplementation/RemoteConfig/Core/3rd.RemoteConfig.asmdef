@@ -1,0 +1,25 @@
+{
+  "name": "3rd.RemoteConfig",
+  "rootNamespace": "",
+  "references": [
+    "UniTask",
+    "GameFoundation.DI",
+    "GameFoundation.Utilities",
+    "GameFoundation.Signals",
+    "GameFoundation.AssetLibrary",
+    "GameFoundation.Models",
+    "I2Localization.Scripts"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.svermeulen.extenject",
+      "expression": "",
+      "define": "GDK_ZENJECT"
+    },
+    {
+      "name": "jp.hadashikick.vcontainer",
+      "expression": "",
+      "define": "GDK_VCONTAINER"
+    }
+  ]
+}
