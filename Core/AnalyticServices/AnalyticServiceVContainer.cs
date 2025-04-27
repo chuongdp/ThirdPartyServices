@@ -14,7 +14,6 @@ namespace Core.AnalyticServices
     {
         public static void RegisterAnalyticService(this IContainerBuilder builder)
         {
-            builder.Register(container => container.Resolve<GDKConfig>().GetGameConfig<AnalyticConfig>(), Lifetime.Singleton);
             builder.Register<AnalyticServices>(Lifetime.Singleton).AsImplementedInterfaces();
             builder.Register<DeviceInfo>(Lifetime.Singleton);
             builder.RegisterComponentOnNewGameObject<SessionController>(Lifetime.Singleton);
